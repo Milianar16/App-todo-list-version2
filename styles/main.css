@@ -1,0 +1,108 @@
+:root {
+   
+    --rosa: #FFC0CB;
+    --rescuro: #c0f;
+    
+    
+}
+
+body {
+    background-color:var(--rosa);
+   
+    
+}
+
+
+.img{
+    margin:100%;
+   
+}
+
+
+.btn{
+    background-color:#f9537f
+}
+
+.cor{
+    background-color: var(--rosa);
+}
+main {
+    max-height: 100vh;
+   
+}
+
+#main-header {
+    height: 90px;
+    
+}
+
+#app-logo {
+    width: 720px;
+   
+}
+
+#add-todo {
+    font-size: 0;
+    background-color:#f9537f
+}
+
+#todos-list .card {
+    background: #f9537f;
+    
+    
+}
+
+
+#todos-list .card + .card {
+    margin-top:10px;
+     
+    
+}
+
+#importante {
+    color: black;
+    margin-right: 30px;
+
+}
+
+#medio {
+    color: black;
+    margin-right: 30px;
+}
+
+#facil {
+    color: black;
+    margin-right: 10px;
+}
+.todo-text {
+    margin: 0;
+}
+
+.delete-todo {
+    font-size: 0;
+    
+}
+
+#containerCheckBox {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.iconeVermelho {
+    color: red;
+    background-color: red;
+    border-radius: 50px;
+}
+
+.iconeAmarelo {
+    color: yellow;
+    background-color: yellow;
+    border-radius: 50px;
+}
+
+.iconeVerde {
+    color: green;
+    background-color: green;
+    border-radius: 50px;
+}
